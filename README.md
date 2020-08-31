@@ -3,14 +3,14 @@ Spring boot Health check app
 
 Hello World
 Using your favorite language (Go, Python, Java, Scala, Bash, etc.), create a hello world web application API that listens on port 8080 and greets a user withÊHello!Êand exposes a health status endpoint.
-1. Application url should return a greeting such asÊHello!Êas json or plain text (ex: when you open a browser and navigate toÊhttp://localhost:8080, it should returnÊHello!Êplain text.)
+1. Application url should return a greeting such asÊHello!Êas json or plain text (ex: when you open a browser and navigate to http://localhost:8080, it should return Hello! plain text.)
 
 Done
 
 2. Application should provide a health endpoint (http://localhost:8080/healthz) that returns HTTP status (200 OK) which indicates health of the application and returns a valid json with the following information:
 o status: status of the app: online, success, OK, error, etc.
 o version: running application version (ex: 0.0.1)
-o uptime: time duration or time stamp since the app is running (ex: running since YYYY-MM-DD hh:mm:ss) Example: When you open a browser and navigate toÊhttp://localhost:8080/healthzÊit should return:
+o uptime: time duration or time stamp since the app is running (ex: running since YYYY-MM-DD hh:mm:ss) Example: When you open a browser and navigate to http://localhost:8080/healthzÊit should return:
 {
   "status": "OK",
   "version": "0.0.1",
